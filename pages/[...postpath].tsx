@@ -89,8 +89,8 @@ const Post: React.FC<PostProps> = (props) => {
 				<meta property="og:locale" content="en_US" />
 				<meta property="og:site_name" content="https://www.love.khao.today/" />
 				<meta property="article:published_time" content={post.dateGmt} />
-				<meta property="article:modified_time" content="https://www.love.khao.today/wp-content/uploads/2023/04/342012287_6314516433995_8966184321305360609_n.jpeg" />
-				<meta property="og:image" content={post.featuredImage.node.sourceUrl} />
+				<meta property="article:modified_time" content={post.dateGmt} />
+				<meta property="og:image" content="https://www.love.khao.today/wp-content/uploads/2023/04/342012287_6314516433995_8966184321305360609_n.jpeg" />
 				<meta
 					property="og:image:alt"
 					content={post.featuredImage.node.altText || post.title}
