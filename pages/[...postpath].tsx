@@ -83,13 +83,13 @@ const Post: React.FC<PostProps> = (props) => {
 	return (
 		<>
 			<Head>
-				<meta property="og:title" content={post.title} />
-				<meta property="og:description" content={removeTags(post.excerpt)} />
+				<meta property="og:title" content="Relax Every Day With Sac Dep Spa 48" />
+				<meta property="og:description" content="Relax Every Day With Sac Dep Spa 48" />
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="en_US" />
-				<meta property="og:site_name" content={host.split('.')[0]} />
+				<meta property="og:site_name" content="https://www.love.khao.today/" />
 				<meta property="article:published_time" content={post.dateGmt} />
-				<meta property="article:modified_time" content={post.modifiedGmt} />
+				<meta property="article:modified_time" content="https://www.love.khao.today/wp-content/uploads/2023/04/342012287_6314516433995_8966184321305360609_n.jpeg" />
 				<meta property="og:image" content={post.featuredImage.node.sourceUrl} />
 				<meta
 					property="og:image:alt"
